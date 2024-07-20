@@ -4,7 +4,7 @@ our plan is to add more features for saas including payments, magic links for bu
 ## Getting Started
 
 - for logins change the env.exmaple name to .env and add your next auth secret.
-- create your [GitHub OAuth application](https://github.com/settings/developers) and fill GITHUB_ID and GITHUB_SECRET
+- create your [GitHub OAuth application](https://github.com/settings/developers) change the Authorization callback URL to : http://{hostname}/api/auth/callback/github.  <br>and fill GITHUB_ID and GITHUB_SECRET 
 
 run the development server:
 
